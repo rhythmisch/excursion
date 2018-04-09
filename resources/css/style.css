@@ -3,16 +3,34 @@ body {
     font-family: Verdana, Geneva, sans-serif;
     background: black;
 }
+h1, h2, h3 {
+    color: white;
+}
 h1 {
     font-size: 50px;
     font-weight: normal;
-    color: white;
+}
+h2 {
+    font-size: 42px;
+    font-weight: 300;
+}
 
+h3, p {
+    color: gray;
 }
+
+h3 {
+    font-size: 21px;
+}
+
 p {
-    font-size: 16px;
-    
+    font-size: 16px;    
 }
+
+footer p {
+    text-align: right;
+}
+
 a {
     color: aquamarine;
     text-decoration: none;
